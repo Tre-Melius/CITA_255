@@ -1,0 +1,10 @@
+﻿IsEmulatorSupported: START
+	Is64BitOperatingSystem = True
+DetectSlat: START
+	isHyperVRunning = False
+	isHardwareVirtualizationSupported = True
+	isHardwareVirtualizationEnabledInBIOS = True
+DetectSlat: END (Success, 0:00:01.224)
+	SlatState = SlatAndHWVEnabled
+	IsEmulatorSupported = True
+IsEmulatorSupported: END (Success, 0:00:01.388)
