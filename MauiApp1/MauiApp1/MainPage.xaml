@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+    <VerticalStackLayout Padding="150">
+          
+        <Label Text="Hello!" 
+               FontSize="50" 
+               TextColor="HotPink" 
+               HorizontalTextAlignment="Center" 
+               FontFamily="Ming Imperial"/>
+        <Label Text="Hello!" 
+               FontSize="50" 
+               TextColor="Blue" 
+               HorizontalTextAlignment="Center" 
+               FontFamily="Pierce Jameson Script"/>
+
+        <Entry Placeholder="You Can type here" 
+               PlaceholderColor="Navy"
+               WidthRequest="150"
+              />
+
+        <Button Text="Click me!"
+                TextColor="MediumVioletRed"
+                WidthRequest="200"
+                BorderWidth="5"
+                BorderColor="AliceBlue"
+              />
+
+        <Image Source="car.png"
+               WidthRequest="200"
+               HeightRequest="200"
+              />
+    </VerticalStackLayout>
+        
+
+</ContentPage>
